@@ -17,4 +17,5 @@ Pod::Spec.new do |s|
   s.module_name = "Optics"
 
   s.dependency 'Swift-Prelude'
+  s.dependency 'Swift-Either'
 end

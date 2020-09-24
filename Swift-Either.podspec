@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name        = "Swift-Optics"
+  s.name        = "Swift-Either"
   s.version     = "0.1.3"
   s.summary     = "🎶 A collection of types and functions that enhance the Swift language."
   s.homepage    = "https://github.com/pointfreeco/swift-prelude"
@@ -13,9 +13,8 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = "3.0"
   s.tvos.deployment_target = "9.0"
   s.source   = { :git => "https://github.com/tutu-ru-mobile/swift-prelude.git", :tag => s.version }
-  s.source_files = "Sources/Optics/*.swift"
-  s.module_name = "Optics"
+  s.source_files = "Sources/Either/*.swift"
+  s.module_name = "Either"
 
   s.dependency 'Swift-Prelude'
-  s.dependency 'Swift-Either'
 end
