@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = "Swift-Reader"
-  s.version     = "0.1.3"
+  s.version     = "0.1.5"
   s.summary     = "🎶 A collection of types and functions that enhance the Swift language."
   s.homepage    = "https://github.com/pointfreeco/swift-prelude"
   s.license     = { :type => "MIT" }
