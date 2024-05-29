@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = "Swift-Either"
-  s.version     = "0.1.6"
+  s.version     = "0.1.7"
   s.summary     = "🎶 A collection of types and functions that enhance the Swift language."
   s.homepage    = "https://github.com/pointfreeco/swift-prelude"
   s.license     = { :type => "MIT" }
